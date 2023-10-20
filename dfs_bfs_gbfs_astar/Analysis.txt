@@ -1,0 +1,100 @@
+ I have taken the following Node Pairs for the analysis of Algorithms:
+node_pair = [('Sitamarhi', 'Lucknow'), ('Sitamarhi', 'Delhi'), ('Lucknow', 'Mirzapur'), ('Kota', 'Patna'), ('Gaya', 'Calicut')]
+
+
+I have found the following output on five Node Pairs;
+
+1. ('Sitamarhi', 'Lucknow'):
+
+DFS: Found a path with length 7.
+BFS: Found a path with length 12.
+Greedy Best-First: Found a path with length 3.
+A-Star:Found a path with length 3.
+
+
+2. ('Sitamarhi', 'Delhi'):
+
+DFS: Found a path with length 29.
+BFS: Found a path with length 9.
+Greedy Best-First: Reaches to dead End.
+A-Star: Found a path with length 2.
+
+
+3. ('Lucknow', 'Mirzapur'):
+
+DFS: Found a path with length 40.
+BFS: Found a path with length 29.
+Greedy Best-First: Reaches to dead End.
+A-Star: Found a path with length 3.
+
+
+4. ('Kota', 'Patna'):
+
+DFS: Found a path with length 13.
+BFS: Found a path with length 12.
+Greedy Best-First: Found a path with length 5.
+A-Star: Found a path with length 2.
+
+
+5. ('Gaya', 'Calicut'):
+
+DFS: Found a path with length 22.
+BFS: Found a path with length 9.
+Greedy Best-First: Found a path with length 7.
+A-Star: Found a path with length 2.
+
+
+
+
+These are the Pros and Cons of All the four Algorithms:
+
+
+1. DFS (Depth-First Search):
+Pros:
+DFS finds paths quickly in some cases, as it explores deeply before backtracking.
+
+Cons:
+DFS may not find the shortest path, as it tends to follow one branch until it reaches the end.
+
+
+
+2. BFS (Breadth-First Search):
+Pros:
+BFS guarantees the shortest path in an unweighted graph but It explores all possible paths uniformly.
+
+Cons:
+BFS may consume more memory, especially in large graphs, as it stores all potential paths.
+It can be slower in some cases, as it explores many paths.
+
+
+
+3. Greedy Best-First Search:
+Pros:
+Greedy Best-First Search is efficient and often finds a solution quickly.
+
+Cons:
+It may not find the optimal solution, but it may reach to dead end.
+
+
+
+4. A-Star Algorithm:
+Pros:
+It combines the benefits of BFS and Greedy Best-First Search by using heuristics and considering the actual cost.It guarantees the shortest path in both unweighted and weighted graphs when using consistent heuristics.
+
+Cons:
+A* can be slower than BFS and DFS due to the extra computation needed for heuristics. The effectiveness of A* heavily depends on the quality of the heuristics used.
+
+
+
+
+Conclusion:
+
+DFS is the least efficient in terms of path length.
+BFS guarantees the shortest path in unweighted graphs but can be memory-intensive.
+Greedy Best-First Search provides shorter paths in some cases but in my case it reaches to dead end in two pairs out of five pairs given.
+A-Star has given sortest and best possible path available.
+
+
+
+
+Thank You!
