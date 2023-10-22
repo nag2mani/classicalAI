@@ -26,4 +26,4 @@ Third Assignment:
 4. (optional) Create a GUI for playing the game using Mini-Max, Alpha-Beta Pruning and Reinforcement Learning.
 
 
-Second Assignment: 
+
