@@ -1,4 +1,4 @@
- I have taken the following Node Pairs for the analysis of Algorithms:
+I have taken the following Node Pairs for the analysis of Algorithms:
 node_pair = [('Sitamarhi', 'Lucknow'), ('Sitamarhi', 'Delhi'), ('Lucknow', 'Mirzapur'), ('Kota', 'Patna'), ('Gaya', 'Calicut')]
 
 
