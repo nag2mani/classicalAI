@@ -1,4 +1,14 @@
-import random
+"""
+This code is copied from source : https://github.com/729557989/MiniMax-Algorithm-with-tictactoe-optimized
+I have found bug and report the user :
+"Hello Jimmy,
+I found a bug in your algorithm.
+There is a case in which if I start playing first then I will definitely win.
+For example:
+I start playing first and choose the following index: 2, 7, 8, 6 then I will win."
+"""
+
+
 import copy as cp
 # NOTE use cp.deepcopy() so the temp variable isn't linked with the other
 
