@@ -1,6 +1,10 @@
 """
-This code is copied from source : https://github.com/729557989/MiniMax-Algorithm-with-tictactoe-optimized
-I have found bug and report the user :
+The following code is copied from,
+
+Medium Article : https://medium.com/analytics-vidhya/i-programmed-a-tic-tac-toe-game-with-minimax-algorithm-but-how-does-it-work-8c689842c9ee
+Source code : https://github.com/729557989/MiniMax-Algorithm-with-tictactoe-optimized
+
+I have found bug and told the user in reply section:
 "Hello Jimmy,
 I found a bug in your algorithm.
 There is a case in which if I start playing first then I will definitely win.
